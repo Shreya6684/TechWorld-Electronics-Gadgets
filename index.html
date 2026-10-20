@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102b3f">
+  <meta name="description" content="Discover carefully chosen electronics, everyday essentials, and the latest gadgets at TechWorld.">
+  <title>TechWorld — Good things are wired in</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="announcement"><span>Good tech. Better days.</span><span>Complimentary delivery on orders over ₹8,300 <a href="#shop">Shop now <b>↗</b></a></span><span class="announcement-right">Thoughtfully chosen. Ready for you.</span></div>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="TechWorld home">tech<span>world</span><i>.</i></a>
+    <form class="search-form" id="search-form" role="search"><label class="sr-only" for="site-search">Search products</label><span aria-hidden="true">⌕</span><input id="site-search" type="search" placeholder="Search for something good..." autocomplete="off"><kbd>↵</kbd></form>
+    <nav class="header-actions" aria-label="Account and shopping"><a href="#account" class="account-link"><span class="action-icon">♙</span><span>Account</span></a><a href="#cart" class="cart-link"><span class="action-icon">♧</span><span>Bag</span><span class="cart-count" id="cart-count">0</span></a><button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button></nav>
+  </header>
+  <nav class="category-nav" id="category-nav" aria-label="Shop categories"><a href="#shop">All things</a><a href="#shop?category=Phones">Phones</a><a href="#shop?category=Computers">Computers</a><a href="#shop?category=Audio">Audio</a><a href="#shop?category=Wearables">Wearables</a><a href="#shop?category=Accessories">Accessories</a><a href="#about">Our little story</a><a href="#contact">Say hello</a></nav>
+  <main id="app" tabindex="-1"></main>
+  <footer class="site-footer"><div class="footer-main"><a class="wordmark footer-wordmark" href="#home">tech<span>world</span><i>.</i></a><p>Good things are wired in.<br>Find your next everyday favourite.</p><div class="footer-links"><a href="#about">Our story</a><a href="#contact">Get in touch</a><a href="#account">Your account</a></div><div class="newsletter"><label for="newsletter-email">A little good news, occasionally.</label><form id="newsletter-form"><input type="email" id="newsletter-email" placeholder="Your email address" required><button aria-label="Subscribe">↗</button></form></div></div><div class="footer-bottom"><span>© 2026 TechWorld Goods Co.</span><span>Made for the everyday.</span><a href="#shop">Back to the good stuff ↑</a></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
