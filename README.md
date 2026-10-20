@@ -115,6 +115,7 @@ Product information and prices are sample data and should be verified before any
 GitHub: [Shreya6684](https://github.com/Shreya6684)
 
 LinkedIn: [Shreya Sharma](https://linkedin.com/in/shreya-sharma-328597326)
+Live Blog Post : www.freeinternships.in/blog/techworld-electronics-gadgets-website-web-development-internship
 
 ## 📄 License
 
